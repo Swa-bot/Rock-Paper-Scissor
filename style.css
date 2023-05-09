@@ -3,12 +3,35 @@ div{
     border:1px solid black;
     align-self:center;
     position:relative;
+    }
+#main{
     width:60%;
     height:200px;
     background-color: rgb(192, 225, 226);
     left:20%;
     top:150px;
-}
+    }
+    div.msg{
+        top: 160px;
+        width:40%;
+        left:45%;
+        height:40px;
+        text-align: center;
+        border-width:0px;
+        padding: auto;
+    }
+    #scores{
+        top:160px;
+        height: 20px;
+        width:40%;
+        left:30%;
+        text-align: center;
+        padding: auto;
+    }
+    #scores>div{
+        border-width: 0px;
+        margin:auto;
+    }
 button{
     display:flex;
     margin:auto;
